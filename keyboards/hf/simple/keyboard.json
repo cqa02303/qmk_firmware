@@ -1,0 +1,63 @@
+{
+    "manufacturer": "cqa02303",
+    "keyboard_name": "hf/simple",
+    "maintainer": "Hiroyuki-Fujikawa.",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9",
+             "GP10", "GP11", "GP12", "GP13", "GP14", "GP15", "GP17", "GP18", "GP19",
+             "GP20", "GP21", "GP22", "GP23", "GP24", "GP26", "GP27", "GP28", "GP29"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "GP0", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "GP1", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "GP2", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "GP3", "matrix": [0, 3], "x": 3, "y": 0},
+                {"label": "GP4", "matrix": [0, 4], "x": 4, "y": 0},
+                {"label": "GP5", "matrix": [0, 5], "x": 5, "y": 0},
+                {"label": "GP6", "matrix": [0, 6], "x": 6, "y": 0},
+                {"label": "GP7", "matrix": [0, 7], "x": 7, "y": 0},
+                {"label": "GP8", "matrix": [0, 8], "x": 8, "y": 0},
+                {"label": "GP9", "matrix": [0, 9], "x": 9, "y": 0},
+                {"label": "GP10", "matrix": [0, 10], "x": 10, "y": 0},
+                {"label": "GP11", "matrix": [0, 11], "x": 11, "y": 0},
+                {"label": "GP12", "matrix": [0, 12], "x": 12, "y": 0},
+                {"label": "GP13", "matrix": [0, 13], "x": 13, "y": 0},
+                {"label": "GP14", "matrix": [0, 14], "x": 14, "y": 0},
+                {"label": "GP15", "matrix": [0, 15], "x": 15, "y": 0},
+                {"label": "GP17", "matrix": [0, 16], "x": 16, "y": 0},
+                {"label": "GP18", "matrix": [0, 17], "x": 17, "y": 0},
+                {"label": "GP19", "matrix": [0, 18], "x": 18, "y": 0},
+                {"label": "GP20", "matrix": [0, 19], "x": 19, "y": 0},
+                {"label": "GP21", "matrix": [0, 20], "x": 20, "y": 0},
+                {"label": "GP22", "matrix": [0, 21], "x": 21, "y": 0},
+                {"label": "GP23", "matrix": [0, 22], "x": 22, "y": 0},
+                {"label": "GP24", "matrix": [0, 23], "x": 23, "y": 0},
+                {"label": "GP26", "matrix": [0, 24], "x": 24, "y": 0},
+                {"label": "GP27", "matrix": [0, 25], "x": 25, "y": 0},
+                {"label": "GP28", "matrix": [0, 26], "x": 26, "y": 0},
+                {"label": "GP29", "matrix": [0, 27], "x": 27, "y": 0},
+            ]
+        }
+    }
+}
